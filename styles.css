@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;800&display=swap');
 
 *{
+    font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
 
@@ -123,6 +124,103 @@ border: none;
 .banner img{
     width: 600px ;
 }
+
+.ralph{
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: right;
+}
+.ralph img{
+    width: 600px;
+}
+.ralph h4{
+    
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.ralph p{
+    color: #534C64;
+
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+padding: 10px;
+}
+.ralph h5{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+
+}
+.des p{
+    text-align: center;
+    color: #534C64;
+    padding: 5px;
+}
+.des h3{
+text-align: center;
+color: #0B0223;
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+}
+.des h3 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.online{
+    padding: 10px 200px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.online img{
+  width: 280px;
+  
+flex-shrink: 0;
+}
+.online p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
