@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+}
+
+header{
+    
+  
+}
+nav{
+    padding: 45px 200px;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.about{
+    display: flex;
+    align-items: center;   
+    gap: 20px;
+}
+.follow{
+    display: flex;
+    align-items: center;   
+    gap: 20px;
+}
+div a{
+    text-decoration: none;
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+}
+nav h3{
+    text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+}
+nav span{
+    color: #FF42A5;
+}
+.follow{
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 10px;
+border-radius: 8px;
+padding: 12px 16px;
+background: rgba(11, 2, 35, 0.10);
+}
+
+.banner{
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner h2{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.banner h1{
+    text-align: center;
+font-family: Work Sans;
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.banner p{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 500;
+padding-left: 5px;
+
+}
+.banner svg{
+    width: 24px;
+height: 24px;
+position: relative;
+top: 5px;
+padding-right: 5px;
+
+}
+
+.btn{
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-flex;
+padding: 15px 30px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #FF42A5;
+border: none;
+}
+#btn{
+    background: #4EC5F7;
+}
+.banner img{
+    width: 600px ;
+}
+
+
+
+
+
+
+/* mobile */
+
+@media screen and (max-width:576px) {
+    
+     nav{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        gap: 20px;
+     }
+     .logo{
+        text-align: center;
+        justify-content: center;
+     }
+    .about{
+        flex-direction: column;
+    }
+     .banner{
+        flex-direction: column-reverse;
+        padding:20px;
+        gap: 20px;
+        text-align: center;
+     }
+     .banner p{
+        text-align: left;
+     }
+     .banner img{ 
+        
+        width: 100%;
+        padding-bottom: 30px;
+     }
+     
+}
