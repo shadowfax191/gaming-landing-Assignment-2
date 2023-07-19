@@ -14,6 +14,7 @@ nav{
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logo1{
     display: flex;
@@ -117,6 +118,7 @@ gap: 10px;
 border-radius: 48px;
 background: #FF42A5;
 border: none;
+color: #FFF;
 }
 #btn{
     background: #4EC5F7;
