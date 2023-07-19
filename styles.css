@@ -15,7 +15,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: space-between;
 }
-.logo{
+.logo1{
     display: flex;
     gap: 20px;
     align-items: center;
@@ -30,7 +30,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     align-items: center;   
     gap: 20px;
 }
-div a{
+nav a{
     text-decoration: none;
     color: #3C354F;
 text-align: center;
@@ -38,13 +38,13 @@ font-family: Work Sans;
 font-size: 18px;
 font-weight: 500;
 }
-nav h3{
+nav h3,footer h3{
     text-align: center;
 font-family: Work Sans;
 font-size: 45px;
 font-weight: 700;
 }
-nav span{
+nav span,footer span{
     color: #FF42A5;
 }
 .follow{
@@ -403,7 +403,11 @@ text-align: left;
     width: 600px;
     
 }
-
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 .grid{
     padding: 80px 200px;
     display: grid;
@@ -442,12 +446,52 @@ transition:all .3s  ease;
 
 }
 
-
-
-
-
-
-
+footer{
+    background-color: #0B0223;
+    color: white;
+    padding: 100px 200px;
+    text-align: center;
+}
+footer .logo1{
+    justify-content: center;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 30px;
+    
+}
+footer .svg{
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+gap: 60px;
+flex-shrink: 0;
+}
+footer svg{
+    width: 40px;
+height: 40px;
+}
+footer a{
+    text-decoration: none;
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+footer .idd>a,.idd{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
 
 
 
@@ -461,7 +505,7 @@ transition:all .3s  ease;
         padding: 20px;
         gap: 20px;
      }
-     .logo{
+     .logo1{
         text-align: center;
         justify-content: center;
      }
@@ -544,7 +588,7 @@ transition:all .3s  ease;
         top: 60px;
      }
      .grid{
-        margin-top: 100px;
+        margin-top: 20px;
         padding: 20px ;
         grid-template-columns: repeat(3,1fr);
         gap: 20px;
@@ -556,7 +600,7 @@ transition:all .3s  ease;
         left: 0;
     }
     .grid p{
-        font-size: 16px;
+        font-size: 14px;
         margin: 0px;
     }
     .grid img{
@@ -564,4 +608,46 @@ transition:all .3s  ease;
         height: 25px;
         margin-right: -10px;
     }
+    .careers{
+        margin-top: 50px;
+        background-image: none;
+        padding: 20px;
+        text-align: center;
+       
+    }
+    .careers p,.ul{
+        width: 100%;
+        font-size: 16px;
+    }
+    footer{
+        padding: 40px 20px;
+    }
+    footer ul{
+        padding: 20px;
+        display: grid;
+       grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        justify-content: center;
+        
+}
+footer .svg{
+    display: grid;
+       grid-template-columns: repeat(3,1fr);
+       gap: 20px;
+       padding-left:1px;
+}
+footer a{
+    font-size: 16px;
+}
+footer .idd{
+    grid-template-columns: repeat(2,1fr);
+       gap: 20px;
+}
+}
+
+
+/* table view */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    
 }
