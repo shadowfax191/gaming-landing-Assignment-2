@@ -119,10 +119,12 @@ border-radius: 48px;
 background: #FF42A5;
 border: none;
 color: #FFF;
+cursor: pointer;
 }
 #btn{
     background: #4EC5F7;
 }
+
 .banner img{
     width: 600px ;
 }
@@ -228,6 +230,7 @@ line-height: normal;
 }
 .image-con:hover .middle{
     opacity: 1;
+    cursor: pointer;
 }
 .play{
     width: 48px;
@@ -445,7 +448,7 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 transition:all .3s  ease;
-  
+  cursor: pointer;
 
 }
 
