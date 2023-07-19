@@ -329,7 +329,7 @@ footer span {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
+    
 }
 
 #img1 {
@@ -384,7 +384,7 @@ footer span {
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
-    /* 125% */
+
 }
 
 .play-on span {
@@ -402,7 +402,7 @@ footer span {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
+  
 }
 
 .careers {
@@ -426,7 +426,7 @@ footer span {
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
-    /* 125% */
+    
 }
 
 .careers p {
@@ -438,7 +438,6 @@ footer span {
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    /* 166.667% */
     width: 50%;
 }
 
@@ -450,14 +449,12 @@ footer span {
 .ul {
     padding-top: 30px;
     display: flex;
-    gap: ;
     color: #FFF;
     font-family: Work Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 40px;
-    /* 200% */
     width: 60%;
     text-align: left;
 }
