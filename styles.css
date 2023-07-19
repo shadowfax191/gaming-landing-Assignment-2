@@ -756,7 +756,9 @@ footer .idd>a,
     footer .idd {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+        font-size: 12px;
     }
+    
 }
 
 
