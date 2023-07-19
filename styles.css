@@ -344,11 +344,71 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
 }
+
+.careers{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("images/Group\ 65.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #F948B2;
+    background-size: 50% 100%;
+
+    
+}
+.careers h3{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+}
+.careers p{
+    padding-top: 30px ;
+    margin-right: -60px;
+    color: #FFF;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 166.667% */
+width: 50%;
+}
+.careers .btn{
+    background-color: white;
+    color: #F948B2;
+}
+.ul{
+    padding-top: 30px;
+    display: flex;
+    gap: ;
+    color: #FFF;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 200% */
+width: 60%;
+text-align: left;
+}
+.ul li{
+list-style: none;
+text-align: left;
+
+}
+.careers img{
+    width: 600px;
+    
+}
+
 .grid{
-    padding: 10px 200px;
+    padding: 80px 200px;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    gap: 40px;
+    gap: 10px;
 }
 .grid img{
     width: 50px;
@@ -356,16 +416,18 @@ height: 50px;
 
 }
 .a{
+    margin-top: 40px;
     position: relative;
     left: 50%;
 }
 .grid p{
     color: #0B0223;
     font-family: Work Sans;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-left: -15px;
 }
 .logo:hover{
     border: solid #F948B2;
@@ -447,6 +509,9 @@ transition:all .3s  ease;
         flex-direction: column;
         gap: 40px;
      }
+     .con{
+        text-align: right;
+     }
      .play-on{
         margin-top: 70px;
         padding: 20px;
@@ -455,20 +520,22 @@ transition:all .3s  ease;
         
      }
      #img1{
-        position: relative;
+        text-align: right;
+        
         width: 80%;
-        left: 15%;
+        
+
      }
      #img2{
         padding: 5px;
         width: 50%;
         height: 50%;
-        left: 100px ;
+        right: 195px ;
         top: 60px;
      }
      #img3{
         width: 70%;
-        padding-left: 20px;
+        
      }
      #img4{
         width: 50%;
@@ -484,11 +551,13 @@ transition:all .3s  ease;
         
     }
     .a{
+        margin-top: 0px;
         position: relative;
         left: 0;
     }
     .grid p{
         font-size: 16px;
+        margin: 0px;
     }
     .grid img{
         width: 25px;
